@@ -1,0 +1,294 @@
+.active {
+  background-color: #C63D0F;
+}
+
+body {
+  background-color: #3B3738;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0;
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.bodyOfParts{
+  padding: 10px 5px;
+  border-radius: 20px;
+  font-size: 18px;
+  height: 100%;
+}
+
+.bodyOfParts div ul{
+  padding-bottom: 5px;
+}
+
+.columnDirectioner{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.container {
+  height: 100%;
+  overflow: hidden;
+  margin:0 auto;
+}
+
+h3{
+  margin: 0px 0px 0px 0px;
+}
+
+.hamburgerMenu{
+  display: none;
+}
+
+div ul {
+    list-style-type: square;
+    margin: 0px;
+}
+
+.education{
+  padding: 10px 0 10px 0;
+}
+
+.date{
+  font-style: italic;
+  font-size: 16px;
+}
+
+.flex-container-body {
+  height: auto;
+  background-color: #FDF3E7;
+  padding-bottom: 10px;
+}
+
+footer{
+  float: bottom;
+  background-color: #3B3738;
+  color: white;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  margin: 10px 15px 0 15px;
+  height: inherit;
+}
+
+.flex-container div:first-child{
+  background-color: black;
+  background: none;
+}
+
+h1,h2, .flex-container{
+  color: white;
+  text-shadow: 10px 10px 10px #f1f1f1;
+  margin: 0px;
+  background-color: #3B3738;
+  opacity: .9;
+}
+
+.imageFrame{
+  width: 30%;
+  height: inherit;
+}
+
+.icon{
+  width: 100%;
+  height: 100%;
+}
+
+.item1 {
+  display: -webkit-flex;
+  display: flex;
+  height: auto;;
+  -webkit-flex: 2;
+  flex: 2;
+  background-color: #C63D0F;
+  margin: 5px;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.item2 {
+  display: -webkit-flex;
+  display: flex;
+  height: auto;;
+  -webkit-flex: 1;
+  flex: 1;
+  background-color: #C63D0F;
+  margin: 5px;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.cover{
+  width: 100%;
+  height: inherit;
+  background: url(../image/cover.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3B3738;
+}
+
+.navBarElement {
+    float: left;
+    height: 75px;
+    width: 75px;
+}
+
+.navBarElement a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBarElement a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navpersaonaldata{
+  align-self: baseline;
+}
+
+.title{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 50px;
+  -webkit-flex: 1;
+  flex: 1;
+  color: #3B3738;
+}
+
+.title, .education div h3{
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.title2{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  border-radius: 0px 30px 30px 0
+}
+
+.title2,.bodyOfParts{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, #FDF3E7 , #E3DACF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #FDF3E7, #E3DACF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #FDF3E7, #E3DACF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #FDF3E7 , #E3DACF);
+  margin: 20px;
+}
+
+.titleExperience{
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.personalData{
+  height: initial
+}
+
+.photo{
+  display: block;
+  margin: 20px;
+  width: 50%;
+  height: auto;
+  max-width: 150px;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 871px) {
+
+  .flex-container-body {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+}
+@media (max-width: 870px) {
+  .date{
+    font-size: 10px;
+  }
+
+  .flex-container-body {
+    padding: 5px 10px 5px 10px;
+  }
+
+  .flex-container{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .navBarElement{
+    height: 65px;
+    width: 65px;
+  }
+
+  .item1, .item2{
+    margin: 0;
+  }
+
+  .personalInformation{
+    margin: 0 0 10px 0;
+  }
+
+  .photo{
+    display: block;
+    width: 40%;
+    height: auto;
+    max-width: 150px;
+    min-width: 50px;
+  }
+
+  .titleExperience{
+    font-size: 15px;
+  }
+
+  .title, .education div h3{
+    font-size: 19px;
+  }
+
+  .bodyOfParts{
+    font-size: 12px;
+  }
+
+}
+@media only screen and (max-width: 500px) {
+  .navBarElement{
+    display: none;
+  }
+  .hamburgerMenu{
+    display: inherit;
+    float: right;
+  }
+  .navBarElement a {
+    height: 100%;
+  }
+
+}
